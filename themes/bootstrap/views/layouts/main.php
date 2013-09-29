@@ -15,6 +15,9 @@
 <body>
 
 <?php $this->widget('bootstrap.widgets.TbNavbar',array(
+	'collapse'=>true, // requires bootstrap-responsive.css
+	'htmlOptions' => array('style' => 'position:absolute'),
+	'type'=>'inverse', // null or 'inverse'
     'items'=>array(
         array(
             'class'=>'bootstrap.widgets.TbMenu',

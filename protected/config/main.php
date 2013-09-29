@@ -41,6 +41,7 @@ return array(
 	'components'=>array(
 		'bootstrap'=>array(
             'class'=>'bootstrap.components.Bootstrap',
+            'responsiveCss' => true,
         ),
 		'user'=>array(
 			// enable cookie-based authentication
